@@ -1,0 +1,159 @@
+.create_a_content {
+  margin: 60px 0 80px;
+}
+
+.create_a_item {
+  margin-bottom: 16px;
+}
+
+.create_a_item .create_desc_input,
+.create_a_item .create_input,
+.create_a_item .create_select {
+  height: 50px;
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #111;
+  font: 16px/24px 'Roboto-Regular';
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.create_a_item .create_desc_input::-webkit-input-placeholder,
+.create_a_item .create_input::-webkit-input-placeholder,
+.create_a_item .create_select::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+
+.create_a_item .create_desc_input:-ms-input-placeholder,
+.create_a_item .create_input:-ms-input-placeholder,
+.create_a_item .create_select:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+.create_a_item .create_desc_input::placeholder,
+.create_a_item .create_input::placeholder,
+.create_a_item .create_select::placeholder {
+  color: #bdbdbd;
+}
+
+.create_a_item .create_desc_input {
+  resize: none;
+  min-height: 52px;
+  padding: 13px 20px;
+}
+
+.create_a_item .create_select {
+  padding: 0;
+}
+
+.create_a_item .create_select .ant-select-selector {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.create_a_item .create_select .ant-select-selector .ant-select-selection-item {
+  line-height: 50px;
+}
+
+.create_a_item label {
+  display: block;
+  font: 16px/36px 'Roboto-Regular';
+  color: #979797;
+}
+
+.create_category {
+  margin-bottom: 20px;
+}
+
+.create_upload_photo {
+  display: flex;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
+.create_upload_photo .upload_icon {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.create_upload_photo .upload_photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.create_a_item_focus {
+  padding-top: 10px;
+  position: relative;
+}
+
+.create_a_item_focus .create_desc_input {
+  height: 130px;
+  border-radius: 4px;
+}
+
+.create_a_item_focus .create_err_desc {
+  border: 2px solid red;
+}
+
+.create_a_item_focus label {
+  display: inline-block;
+  position: absolute;
+  padding: 0 8px;
+  height: 20px;
+  font: 12px/20px 'Roboto-Regular';
+  color: #979797;
+  text-align: center;
+  left: 22px;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
+
+.create_a_item_focus.create_error_input label {
+  color: #f85959;
+}
+
+.create_a_item_focus.create_error_input input,
+.create_a_item_focus.create_error_input input:focus,
+.create_a_item_focus.create_error_input input:hover,
+.create_a_item_focus.create_error_input textarea,
+.create_a_item_focus.create_error_input textarea:focus,
+.create_a_item_focus.create_error_input textarea:hover {
+  border: 2px solid #f85959;
+}
+
+.create_focus label {
+  color: #3a84ff;
+}
+
+.error_text {
+  margin-top: 6px;
+  height: 18px;
+  color: #f85959;
+  font: 12px/18px 'Roboto-Regular';
+  display: flex;
+  align-items: center;
+}
+
+.error_text img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.create_a_item_focus input:focus,
+.create_a_item_focus textarea:focus {
+  border: 2px solid #3a84ff;
+}

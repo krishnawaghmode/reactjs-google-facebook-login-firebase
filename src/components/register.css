@@ -1,0 +1,165 @@
+.register-container {
+  width: 100%;
+  height: 100%;
+}
+
+.register-content {
+  padding: 98px 0 34px;
+  background: #f5f7fa;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.register-main {
+  width: 900px;
+  background: #fff;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 50px 140px 80px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.register-nav {
+  height: 56px;
+  padding-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-nav-tab {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #9ea0a5;
+  line-height: 28px;
+  text-align: center;
+  font-family: 'Roboto-Medium';
+  font-size: 16px;
+  color: #9ea0a5;
+  position: relative;
+}
+
+.register-nav-tab.nav-tav-active {
+  background: #3a84ff;
+  border: 2px solid #3a84ff;
+  color: #fff;
+}
+
+.register-nav-tab p {
+  white-space: nowrap;
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  line-height: 14px;
+}
+
+.register-nav-tab p span {
+  font-family: 'Roboto-Regular';
+  font-size: 12px;
+  color: #9ea0a5;
+  margin-left: -100%;
+}
+
+.register-nav-line {
+  flex: 1 1;
+  height: 2px;
+  background: #9ea0a5;
+}
+
+.register-nav-line.nav-line-active {
+  background: #3a84ff;
+}
+
+.register-main-body {
+  padding: 64px 0 0;
+}
+
+.register-main-body h3 {
+  font: 22px/36px 'Roboto-Bold';
+  color: #000;
+  text-align: center;
+}
+
+.register-main-body .register-summary {
+  font: 14px/20px 'Roboto-Regular';
+  text-align: center;
+  color: #9ea0a5;
+}
+
+.register-main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register-main-footer .register-btn-default {
+  display: block;
+  width: 280px;
+  height: 44px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  font: 16px/44px 'Roboto-Medium';
+  text-align: center;
+  color: #bdbdbd;
+  cursor: pointer;
+  outline: none;
+}
+
+.register-main-footer .register-btn-default:hover {
+  background: #f7f7f7;
+}
+
+.register-main-footer .register-btn-default.register-btn-primary {
+  background: #3a84ff;
+  border-color: #3a84ff;
+  color: #fff;
+}
+
+.register-main-footer .register-btn-default.register-btn-primary:hover {
+  background: #409eff;
+  border-color: #409eff;
+}
+
+.register-main-body .ant-select-item-option {
+  padding: 6px 20px;
+  color: #606266;
+}
+
+.register-main-body .ant-select-item-option:hover {
+  background-color: #f5f7fa;
+}
+
+.user_header {
+  width: 100%;
+  position: fixed;
+  height: 64px;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.03);
+  padding: 0 30px 0 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  background: #fff;
+}
+
+.user_header .user_opera_logo {
+  display: block;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+}
+
+.user_header .user_sign_out {
+  border: 0;
+  background: #fff;
+  display: block;
+  color: #9ea0a5;
+  cursor: pointer;
+  font: 18px/36px Roboto-Medium;
+}
